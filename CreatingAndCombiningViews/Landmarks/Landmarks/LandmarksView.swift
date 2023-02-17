@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LandmarksView.swift
 //  Landmarks
 //
 //  Created by Anderson Chagas on 17/02/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarksView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Turtle Rock")
@@ -24,8 +24,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LandmarksView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarksView()
     }
 }
